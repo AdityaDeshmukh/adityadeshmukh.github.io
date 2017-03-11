@@ -1,3 +1,6 @@
 # jemdoc: menu{MENU}{example.html}
 =Aditya Deshmukh
-{}{img_left}{img.jpg}{alt text}{500}{500}{}
+~~~
+{}{}{img.jpg}{text}{}{}{}
+Ordinary jemdoc markup goes here.
+~~~
