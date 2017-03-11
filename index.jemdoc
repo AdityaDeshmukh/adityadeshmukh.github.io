@@ -1,6 +1,11 @@
 # jemdoc: menu{MENU}{example.html}
 =Aditya Deshmukh
-~~~
-{}{}{img.jpg}{text}{}{}{}
-Ordinary jemdoc markup goes here.
-~~~
+~
+{{<table class="imgtable"><tr><td>
+<a href=""><img src="img.jpg" alt="alt text" width="250px" height="250px" /></a>&nbsp;</td>
+<td align="left"><p>Dual Degree (B. Tech and M. Tech)<br /> <a href="http://www.ee.iitm.ac.in/">Electrical Engineering Department</a> <br /><a href="http://www.iitm.ac.in">Indian Institute of Technology</a><br />
+353 Alakananda <br />
+IIT Madras, Chennai <br /> 
+Phone: +91 9092273264 <br />
+Email: aditya.deshmukh78 [at] gmail [dot] com </p>
+</td></tr></table>}}

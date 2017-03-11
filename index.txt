@@ -1,6 +1,0 @@
-# jemdoc: menu{MENU}{example.html}
-=Aditya Deshmukh
-~~~
-{}{}{img.jpg}{text}{}{}{}
-Ordinary jemdoc markup goes here.
-~~~
