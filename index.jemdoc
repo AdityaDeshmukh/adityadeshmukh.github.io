@@ -16,3 +16,12 @@ Email: ad11 (at) illinois.edu / aditya (dot) deshmukh78 (at) gmail.com \n
 I am a PhD candidate in [https://ece.illinois.edu/ ECE Department] at [https://illinois.edu/ UIUC], advised by [https://vvv.illinois.edu/ Prof. Venu Veeravalli].
 Before coming to UIUC, I graduated with a Dual Degree (B.Tech & M.Tech) in [https://www.ee.iitm.ac.in/ Electrical Engineering] from [https://www.iitm.ac.in/ IIT Madras], advised by [https://www.ee.iitm.ac.in/~skrishna/ Prof. Srikrishna Bhashyam].
 Under my undergraduate studies, I had the pleasure of working with [https://www.tcs.tifr.res.in/~vaze/ Prof. Rahul Vaze] at [https://www.tifr.res.in/ TIFR].
+
+== Research Interests
+My research interests broadly lie in the areas of statistical inference, machine learning, optimization and information theory. 
+In my research, I focus on discovering and understanding fundamental limits of learning problems through theoretical analysis, 
+and on design and development of novel algorithms which achieve these limits with provable guarantees. 
+I am passionate about studying and developing tools which enable us to solve problems in a principled manner. 
+My research projects lie in the diverse fields of packet scheduling, multi-armed bandits, controlled sensing, robust inference, network optimization, and multi-modal distributed feature compression. 
+Though the goals of these projects are varied, the focus is upon providing guarantees on the vital engineering criteria of optimality, efficiency and robustness. 
+I strive to recognize and solve open problems which have significant practical scope and applicability, and which require development and analysis of theoretical underpinnings.
