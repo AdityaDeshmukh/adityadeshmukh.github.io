@@ -1,7 +1,9 @@
 # jemdoc: menu{MENU}{index.html}
 =Aditya Deshmukh
 
+~~~
 {}{img_left}{me.png}{alttext}{210}{304}{}
+~~~
 
 = jemdoc -- tables
 
@@ -38,7 +40,6 @@ bottom row   | last entry
 {}{table}{countries}
 country | population | people per square km ||
 Canada | 33 million | 3.2 ||
-{{<span lang="zh-Hans">中华人民共和国</span>}}\n | 
 1300 million | 140 ||
 Kingdom of Denmark | 5.5 million | 130 ||
 New Zealand | 4.3 million | 15 ||
