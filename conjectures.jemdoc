@@ -10,7 +10,7 @@ For this conjecture, I refer the reader to this [https://www.jmlr.org/papers/vol
 For this conjecture, I refer the reader to the table in the [publications \[\/publications.html\]] page under Robust Estimation. Observe that no algorithm so far has been able to achieve the following properties simultaneously:
 - Near-linear time complexity : $\tilde{O}(nd)$
 - Optimal breakdown point: $1/2$
-- Does not require the knowledge $\epsilon$
+- Does not require the knowledge of $\epsilon$ \n
  The conjecture is that such an algorithm exists.
 
  == Competitive ration of a K-Means approximation algorithm
