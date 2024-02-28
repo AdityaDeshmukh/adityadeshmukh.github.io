@@ -24,9 +24,9 @@ Cheng et. al. 2019  | $\tilde{O}\left(\frac{nd}{\epsilon^6}\right)$ | $O(\sigma\
 Dong et. al. 2019 | $\tilde{O}(nd)$ | $O(\sigma\sqrt{\epsilon})$ | NA | Yes||
 Zhu et. al. 2022 | $\tilde{O}(n^2d)$ | $O\left(\sigma\frac{\sqrt{\epsilon}}{1-2\epsilon}\right)$ | $\frac{1}{2}$ | Yes||
 Feasibility problem 2022 | NA | $O\left(\sigma\sqrt{\frac{\epsilon}{1-2\epsilon}}\right)$ | $\frac{1}{2}$ | Yes||
-Opt. problems$*$ 2022 | NA | $O\left(\sigma\sqrt{\frac{\epsilon}{1-2\epsilon}}\right)$ | $\frac{1}{2}$ | No||
-Algo 1$*$ | $\tilde{O}(nd)$ | $O(\sigma\sqrt{\epsilon})$ | $1-\frac{1}{\sqrt{2}}\approx 0.3$ | No||
-Algo 2$*$  | $\tilde{O}(\max\{\epsilon n^2d, nd^2\})$  | $O\left(\sigma\frac{\sqrt{\epsilon}}{1-2\epsilon}\right)$ | $\frac{1}{2}$ | No
+Opt. problems$^*$ 2022 | NA | $O\left(\sigma\sqrt{\frac{\epsilon}{1-2\epsilon}}\right)$ | $\frac{1}{2}$ | No||
+Algo 1$^*$ 2022| $\tilde{O}(nd)$ | $O(\sigma\sqrt{\epsilon})$ | $1-\frac{1}{\sqrt{2}}\approx 0.3$ | No||
+Algo 2$^*$  2023| $\tilde{O}(\max\{\epsilon n^2d, nd^2\})$  | $O\left(\sigma\frac{\sqrt{\epsilon}}{1-2\epsilon}\right)$ | $\frac{1}{2}$ | No
 ~~~
 
-$*$ refers to our contributions.
+$^*$ refers to our contributions.
