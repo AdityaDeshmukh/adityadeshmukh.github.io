@@ -14,7 +14,7 @@ A prevalent way in which machine learning models are trained involves collecting
 ~~~
 
 == Robust Estimation
-Robust mean estimation in high dimensions has received considerable interest recently, and has found applications in areas such as federated learning. The goal is to robustly estimate the true mean of a sample (drawn from an a distribution with unknown mean and bounded covariance matrix) which is corrupted by an adversary who has unlimited computational power, knows the estimator being used, and can corrupt upto $\epsilon<1/2$ fraction of the sample. We provided an optimal outlier-fractio-agnostic estimator which achieves the information-theoretic limit. The following table shows comparison of theoretical guarantees with respect to other state-of-the-art works.
+Robust mean estimation in high dimensions has received considerable interest recently, and has found applications in areas such as federated learning. The goal is to robustly estimate the true mean of a sample (drawn from an a distribution with unknown mean and bounded covariance matrix) which is corrupted by an adversary who has unlimited computational power, knows the estimator being used, and can corrupt upto $\epsilon<1/2$ fraction of the sample. We provided an optimal outlier-fraction-agnostic estimator which achieves the information-theoretic limit. The following table shows comparison of theoretical guarantees with respect to other state-of-the-art works.
 ~~~
 {}{table}{TABLENAME}
 *Algorithm* | *Complexity* | *Error guarantee* | *Break-down point* | *Needs $\epsilon$*||
