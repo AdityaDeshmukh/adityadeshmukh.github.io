@@ -7,7 +7,7 @@ Following are some conjectures which I believe hold. Feel free to contact me if 
 For this conjecture, I refer the reader to this [https://www.jmlr.org/papers/volume22/18-798/18-798.pdf paper]. The conjecture is that the bound provided in the paper also holds (perhaps with slight modifications) for multi-parameter exponential families. I believe the current analysis is not sufficient for the extension and other tools need to be developed.
 
 == Efficient and optimal algorithm for robust mean estimation
-For this conjecture, I refer the reader to the table in the [[\research.html] research] page under Robust Estimation. Observe that no algorithm so far has been able to achieve the following properties simultaneously:
+For this conjecture, I refer the reader to the table in the [\[research.html\] research] page under Robust Estimation. Observe that no algorithm so far has been able to achieve the following properties simultaneously:
 - Near-linear time complexity : $\tilde{O}(nd)$
 - Optimal $\ell_2$ error: $O\left(\sigma\sqrt{\frac{\epsilon}{1-2\epsilon}}\right)$
 - Optimal breakdown point: $1/2$
