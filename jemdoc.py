@@ -1242,8 +1242,8 @@ def inserttitle(f, t):
     hb(f.outf, f.conf['doctitle'], t)
 
     # Look for a subtitle.
-    if pc(f) != '\n':
-      hb(f.outf, f.conf['subtitle'], br(np(f), f))
+    # if pc(f) != '\n':
+    #   hb(f.outf, f.conf['subtitle'], br(np(f), f))
 
     hb(f.outf, f.conf['doctitleend'], t)
 
