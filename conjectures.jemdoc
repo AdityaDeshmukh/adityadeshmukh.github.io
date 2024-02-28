@@ -1,6 +1,7 @@
 # jemdoc: menu{MENU}{conjectures.html}
-Following are some conjectures which I believe hold. Feel free to contact me if you have any ideas on any of them.
+
 = Conjectures
+Following are some conjectures which I believe hold. Feel free to contact me if you have any ideas on any of them.
 
 == A deviation bound in multi-armed bandits
 For this conjecture, I refer the reader to this [https://www.jmlr.org/papers/volume22/18-798/18-798.pdf paper]. The conjecture is that the bound provided in the paper also holds (perhaps with slight modifications) for multi-parameter exponential families. I believe the current analysis is not sufficient for the extension and other tools need to be developed.
