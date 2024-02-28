@@ -39,8 +39,8 @@ body {
 	background: white;
 	text-align: left;
 	vertical-align: top;
-	min-width: 1300px;
-	width: 1300px;
+	min-width: 1100px;
+	width: 1100px;
 }
 
 #layout-menu a {
@@ -369,4 +369,9 @@ img {
 table.imgtable, table.imgtable td {
 	border: none;
 	text-align: left;
+}
+
+.center {
+	margin-left: auto;
+	margin-right: auto;
 }

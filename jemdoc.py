@@ -1507,6 +1507,7 @@ def procfile(f):
           name = ''
           if len(g) >= 3 and g[2]:
             name += ' id="%s"' % g[2]
+            name += ' class="center"'
           out(f.outf, '<table%s>\n<tr class="r1"><td class="c1">' % name)
           f.tablerow = 1
           f.tablecol = 1
