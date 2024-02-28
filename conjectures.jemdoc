@@ -1,9 +1,16 @@
 # jemdoc: menu{MENU}{conjectures.html}
-
+Following are some conjectures which I believe hold. Feel free to contact me if you have any ideas on any of them.
 = Conjectures
 
 == A deviation bound in multi-armed bandits
 For this conjecture, I refer the reader to this [https://www.jmlr.org/papers/volume22/18-798/18-798.pdf paper]. The conjecture is that the bound provided in the paper also holds (perhaps with slight modifications) for multi-parameter exponential families. I believe the current analysis is not sufficient for the extension and other tools need to be developed.
 
 == Efficient and optimal algorithm for robust mean estimation
-For this conjecture, I refer the reader to the table in [/publications.html \[\/publications.html\]]
+For this conjecture, I refer the reader to the table in the [publications \[\/publications.html\]] page under Robust Estimation. Observe that no algorithm so far has been able to achieve the following properties simultaneously:
+- Near-linear time complexity : $\tilde{O}(nd)$
+- Optimal breakdown point: $1/2$
+- Does not require the knowledge $\epsilon$
+ The conjecture is that such an algorithm exists.
+
+ == Competitive ration of a K-Means approximation algorithm
+ For this conjecture, I refer the reader to this [conjectures/K_Means_Conjecture.pdf pdf].
