@@ -14,10 +14,10 @@ A prevalent way in which machine learning models are trained involves collecting
 ~~~
 
 == Robust Estimation
-Robust mean estimation in high dimensions has received considerable interest recently, and has found applications in areas such as federated learning. 
+Robust mean estimation in high dimensions has received considerable interest recently, and has found applications in areas such as federated learning. The goal is to robustly estimate the true mean of a sample (drawn from an a distribution with unknown mean and bounded covariance matrix) which is corrupted by an adversary who has unlimited computational power, knows the estimator being used, and can corrupt upto $\epsilon<1/2$ fraction of the sample. We provided an optimal estimator which achieved the information-theoretic limit.
 ~~~
 {}{table}{TABLENAME}
-Algorithm | Complexity | Error guarantee | BD point | Needs $\epsilon$||
+*Algorithm* | *Complexity* | *Error guarantee* | *Break-down point* | *Needs $\epsilon$*||
 Tukey median | NP-hard | $O(\sigma\sqrt{\epsilon})$ | $\frac{1}{d+1}$ | No||
 Diakonikolas et. al. 2017  | $\mathrm{poly(d,1/\epsilon)}$ | $O(\sigma\sqrt{\epsilon})$ | NA | Yes||
 Cheng et. al. 2019  | $\tilde{O}\left(\frac{nd}{\epsilon^6}\right)$ | $O(\sigma\sqrt{\epsilon})$ | $\frac{1}{3}$ | Yes||
@@ -28,3 +28,4 @@ Opt. problems* 2022 | NA | $O\para*{\sigma\sqrt{\frac{\epsilon}{1-2\epsilon}}}$ 
 Algo 1* | $\tilde{O}(nd)$ | $O(\sigma\sqrt{\epsilon})$ | $1-\frac{1}{\sqrt{2}}\approx 0.3$ | No||
 Algo 2*  | $\tilde{O}(\max\{\epsilon n^2d, nd^2\})$  | $O\left(\sigma\frac{\sqrt{\epsilon}}{1-2\epsilon}\right)$ | $\frac{1}{2}$ | No
 ~~~
+[* refers to our contributions.]
