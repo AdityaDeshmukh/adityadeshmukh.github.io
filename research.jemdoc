@@ -2,7 +2,7 @@
 
 = Research
 
-Following are high-level descriptions of research problems I have been working on.
+Following are high-level descriptions of some of the research problems I have been working on.
 == Distributed and Adaptive Feature Compression
 
 A prevalent way in which machine learning models are trained involves collecting data from various relevant sources, and training the models on the aggregated data. However, in many applications, the input data is often collected from distributed sources at inference time. Examples include, the Internet of Things (IoT) networks, security systems with surveillance sensors, and driverless cars collecting data from sensors and receiving data from wireless receivers. In these applications, the volume of data is generally high and decisions are time-sensitive, and so it is important to have low latency. Moreover, when the data is being communicated through wireless channels, bit-rates can be quite low  either for energy conservation purposes or because of poor channel conditions. Thus, it is imperative to optimize the data-stream pipelines in order to provide maximum information relevant to the performance of the downstream task. Moreover, in practice these pipelines are also subject to changes in bit-rates, and so it is necessary for the solutions to be adaptive to these changes. In this work, we try to answer the following question: \n
