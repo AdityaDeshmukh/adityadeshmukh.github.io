@@ -7,7 +7,7 @@ Following are high-level descriptions of some of the research problems I have be
 == Multi-objective Prompt Optimization in Large Language Models (LLMs)
 
 We explore prompt optimization, a powerful technique for maximizing the effectiveness of LLMs. Prompt optimization enables the design of tailored prompts that fully exploit
-LLMs’ capabilities without the need for fine-tuning. We focus on the challenge of crafting prompts that optimize the
+LLMs' capabilities without the need for fine-tuning. We focus on the challenge of crafting prompts that optimize the
 trade-offs among multiple objectives, thereby enhancing the efficiency and output of LLMs.
 Existing methods primarily focus on maximizing performance with respect to single objective. Although recently
 proposed methods for optimizing multiple objectives successfully generate prompts along the trade-off curve, they
@@ -18,7 +18,7 @@ between objectives by specifying the desired weights along with an initial promp
 prompt optimization model.
 \n
 ~~~
-{}{img_center}{figs/llm.png}{alttext}{525}{225}{}
+{}{img_center}{figs/llm.png}{alttext}{}{}{}
 ~~~
 
 == Distributed and Adaptive Feature Compression
