@@ -49,4 +49,9 @@ Algo 2$^*$  2023| $\tilde{O}(\max\{\epsilon n^2d, nd^2\})$  | $O\left(\sigma\fra
 
 $^*$ refers to our contributions.
 
-== Identification problems in [https://en.wikipedia.org/wiki/Multi-armed_bandit multi-armed bandits] (MAB)
+== Identification problems in multi-armed bandits (MABs)
+In the stochastic [https://en.wikipedia.org/wiki/Multi-armed_bandit multi-armed bandit] framework, the typical goal is to play the /best arm/ as often as possible. An important variation of this problem is to /find/ the best arm as quickly as possible under a error probability constraint. Other identification problems include odd arm identification, wherein the task is to find the odd arm, whose distribution is different from the other arms having same distribution. We formulated a framework of composite multi-hypothesis testing which not only encompassed the identification problems (e.g. top-$k$ arms identification, odd-arm identification), but also general hypotheses cases involving distributions across all arms. We established an information-theoretic lower bound on expected stopping time under a false-alarm constraint, and provided an asymptotically optimal policy. A motivating example of the general framework is as given in the following figure.
+\n
+~~~
+{}{img_center}{figs/mab.png}{alttext}{}{}{}
+~~~
