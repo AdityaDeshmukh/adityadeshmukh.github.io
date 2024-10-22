@@ -37,6 +37,24 @@ MathJax.Hub.Config({
 Following are high-level descriptions of some of the research problems I have been working on.
 
 </p>
+<h2>Multi-objective Prompt Optimization in Large Language Models (LLMs)</h2>
+<p>
+We explore prompt optimization, a powerful technique for maximizing the effectiveness of LLMs. Prompt optimization enables the design of tailored prompts that fully exploit
+LLMs’ capabilities without the need for fine-tuning. We focus on the challenge of crafting prompts that optimize the
+trade-offs among multiple objectives, thereby enhancing the efficiency and output of LLMs.
+Existing methods primarily focus on maximizing performance with respect to single objective. Although recently
+proposed methods for optimizing multiple objectives successfully generate prompts along the trade-off curve, they
+struggle to target a specific point on the curve without requiring retraining of the prompt optimization model.
+Taking inspiration from variable-rate deep compression techniques, we develop a novel method of designing
+prompts for optimizing any given weighted sum of the objectives. This approach allows users to control the tradeoffs
+between objectives by specifying the desired weights along with an initial prompt, which serves as input to the
+prompt optimization model.
+<br />
+</p>
+<center><table class="imgtable"><tr><td>
+<img src="figs/llm.png" alt="alttext" width="525px" height="225px" />&nbsp;</td><tr/>
+<tr><td><center></center>
+</td></tr></table></center>
 <h2>Distributed and Adaptive Feature Compression</h2>
 <p>
 A prevalent way in which machine learning models are trained involves collecting data from various relevant sources, and training the models on the aggregated data. However, in many applications, the input data is often collected from distributed sources at inference time. Examples include, the Internet of Things (IoT) networks, security systems with surveillance sensors, and driverless cars collecting data from sensors and receiving data from wireless receivers. In these applications, the volume of data is generally high and decisions are time-sensitive, and so it is important to have low latency. Moreover, when the data is being communicated through wireless channels, bit-rates can be quite low  either for energy conservation purposes or because of poor channel conditions. Thus, it is imperative to optimize the data-stream pipelines in order to provide maximum information relevant to the performance of the downstream task. Moreover, in practice these pipelines are also subject to changes in bit-rates, and so it is necessary for the solutions to be adaptive to these changes. In this work, we try to answer the following question: <br />
@@ -63,7 +81,10 @@ A prevalent way in which machine learning models are trained involves collecting
 <tr class="r9"><td class="c1">Algo 1\(^*\) 2022</td><td class="c2"> \(\tilde{O}(nd)\) </td><td class="c3"> \(O(\sigma\sqrt{\epsilon})\) </td><td class="c4"> \(1-\frac{1}{\sqrt{2}}\approx 0.3\) </td><td class="c5"> No</td></tr>
 <tr class="r10"><td class="c1">Algo 2\(^*\)  2023</td><td class="c2"> \(\tilde{O}(\max\{\epsilon n^2d, nd^2\})\)  </td><td class="c3"> \(O\left(\sigma\frac{\sqrt{\epsilon}}{1-2\epsilon}\right)\) </td><td class="c4"> \(\frac{1}{2}\) </td><td class="c5"> No
 </td></tr></table>
-<p>\(^*\) refers to our contributions.</p>
+<p>\(^*\) refers to our contributions.
+
+</p>
+<h2>Identification problems in <a href="https://en.wikipedia.org/wiki/Multi-armed_bandit" target=&ldquo;blank&rdquo;>multi-armed bandits</a> (MAB)</h2>
 </td>
 </tr>
 </table>

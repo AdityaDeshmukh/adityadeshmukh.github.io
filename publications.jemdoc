@@ -4,9 +4,14 @@
 
 == Journal Publications and Preprints
 
-- [https://arxiv.org/abs/2404.02179 Distributed and Adaptive Feature Compression using VQ-VAEs] \n
+- Multi-objective Prompt Optimization for Scientific Discovery at the Information-Theoretic Limit \n
+  *A. Deshmukh* and L. Varshney \n
+  /Accepted in AAAI 2024 Fall Symposium on Integrated Approaches to Computational Scientific Discovery/ (2024)
+
+
+- [https://arxiv.org/abs/2404.02179 Distributed and Rate-Adaptive Feature Compression] \n
   *A. Deshmukh*, V. Veeravalli, and G. Verma \n
-  /arXiv Preprint/ (2024)
+  /Accepted in 58th Asilomar Conference on Signals, Systems, and Computers/ (Asilomar 2024)
 
 - [https://arxiv.org/abs/2102.08573 Robust Mean Estimation in High Dimensions: An Outlier Fraction Agnostic and Efficient Algorithm] \n
   *A. Deshmukh*, J. Liu, and V. Veeravalli \n
