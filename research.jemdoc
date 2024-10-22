@@ -18,7 +18,7 @@ between objectives by specifying the desired weights along with an initial promp
 prompt optimization model.
 \n
 ~~~
-{}{img_center}{figs/llm.png}{alttext}{}{}{}
+{}{img_center}{figs/llm.png}{alttext}{772}{151}{}
 ~~~
 
 == Distributed and Adaptive Feature Compression
