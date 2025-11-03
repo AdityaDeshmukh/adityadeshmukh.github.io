@@ -1,1 +1,2 @@
+In windows cmd prompt:
 FOR %i IN (*.jemdoc) DO jemdoc.py -c mysite.conf %i
